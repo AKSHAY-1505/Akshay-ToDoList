@@ -5,6 +5,8 @@ function deleteTask(taskIndex) {
     toDoList.splice(taskIndex,1);
 }
 
+// initial commit
+
 function completeTask(taskIndex) {
     const taskContainer = document.getElementById("task"+taskIndex);
     const containerElements = Array.from(taskContainer.children);
