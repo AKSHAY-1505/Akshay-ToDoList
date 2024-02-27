@@ -6,6 +6,7 @@ function deleteTask(taskIndex) {
 }
 
 // initial commit
+// second commit
 
 function completeTask(taskIndex) {
     const taskContainer = document.getElementById("task"+taskIndex);
